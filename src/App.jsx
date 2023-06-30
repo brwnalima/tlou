@@ -1,13 +1,15 @@
 import './App.css'
-import Banner from './components/mainBanner/Banner'
 import Navbar from './components/navbar/Navbar'
+import About from './components/pages/About'
+import Home from './components/pages/Home'
 
 function App() {
 
   return (
     <div className='app'>
       <Navbar/>
-      <Banner/>
+      <Home/>
+      <About/>
     </div>
   )
 }

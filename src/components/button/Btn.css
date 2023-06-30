@@ -23,14 +23,19 @@
 
 .button.outline {
     background-color: transparent;
+    color: #6fc6ff;
+    border: 2px solid #6fc6ff;
+
+}
+
+.button.outline:hover {
     color: #288acb;
     border: 2px solid #288acb;
-    opacity: 0.7;
 }
 
 .button:hover {
-    opacity: 1;
-    scale: 1.2;
+    opacity: .8;
+    scale: 1.1;
     transition: 0.3s all ease-in-out;
 }
 

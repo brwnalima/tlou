@@ -62,6 +62,7 @@
 
 .navbar-center a:hover {
   border-bottom: 2px solid var(--txt-sec);
+  color: var(--txt-main);
 }
 
 .navbar-toggle {

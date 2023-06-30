@@ -7,12 +7,6 @@
     --txt-main: #FFFFFF;
     --txt-sec: #AAAAAA;
 
-    --destaque: #FFD700;
-    --destaqueSec: #A8A8A8;
-
-    --hover: #FFD700;
-    --animation: #FF0000;
-
     --font: 'Roboto', sans-serif;
 }
 
@@ -33,9 +27,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo para o filtro escuro */
-    filter: brightness(0.5); /* Ou qualquer outro filtro desejado */
-  }
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: brightness(0.5);
+}
 
 .text-area {
     padding: 20rem 0 0 1.875rem;
@@ -54,9 +48,33 @@
 
 .text-area p {
     color: var(--txt-sec);
-    
+
 }
 
 .banner-btn {
     padding: 1.25rem 0 0 0;
+}
+
+@media only screen and (max-width: 758px) {
+    .text-area {
+        padding: 9rem 1.875rem 0 1.875rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    .text-area h1 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .text-area p {
+        text-align: center;
+        font-size: 14px;
+        display: none;
+    
+    }
+    
+    .banner-btn {
+        margin: 400px 0px;
+    }
 }

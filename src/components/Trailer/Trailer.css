@@ -1,0 +1,6 @@
+.meu-video{
+    background-image: url("caminho/para/seu-video.mp4");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
