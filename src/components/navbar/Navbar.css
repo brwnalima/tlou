@@ -30,6 +30,7 @@
     width: 100%;
     color: var(--txt-main);
     font-family: var(--font);
+    z-index: 1;
 }
 
 .navbar-left,
@@ -56,6 +57,11 @@
     text-decoration: none;
     color: var(--txt-sec);
     padding: 0.625rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-center a:hover {
+  border-bottom: 2px solid var(--txt-sec);
 }
 
 .navbar-toggle {
