@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap');
 
 :root {
-  --bg-main: #212121;
-  --bg-sec: #1c1c1c;
+  --bg-main: #1c1c1c;
+  --bg-sec: #101010;
 
   --txt-main: #FFFFFF;
   --txt-sec: #AAAAAA;
@@ -10,14 +10,13 @@
   --font: 'Roboto', sans-serif;
 }
 
-/* teste */
-
 .iframe-video {
   background-color: var(--bg-main);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.3125rem 3.125rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 iframe {
@@ -25,6 +24,7 @@ iframe {
   top: -5rem;
   width: 37.5rem;
   height: 25.9375rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 @media only screen and (max-width: 768px) {

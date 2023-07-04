@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap');
 
 :root {
-    --bg-main: #212121;
-    --bg-sec: #1c1c1c;
+    --bg-main: #1c1c1c;
+    --bg-sec: #101010;
 
     --txt-main: #FFFFFF;
     --txt-sec: #AAAAAA;
 
     --font: 'Roboto', sans-serif;
 }
-
 
 /* INICIO DO ABOUT */
 
@@ -54,6 +53,8 @@
     text-transform: uppercase;
     width: 60%;
     margin: auto;
+    border-top: 2px solid var(--bg-main);
+    padding: 20px 0 0 0;
 }
 
 .wrapperItens p {
@@ -79,13 +80,9 @@
         flex-direction: column;
     }
 
-    .text {
+    .text, .txt-absec {
         text-align: center;
         width: 100%;
-    }
-
-    .txt-absec {
-        text-align: left;
     }
 
     .wrapperItens h2 {
@@ -97,6 +94,13 @@
         width: 100%;
         font-size: .7rem;
     }
+}
+
+.scroll {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 2.5rem;
 }
 
 /* FIM DO ABOUT */

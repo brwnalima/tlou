@@ -1,0 +1,24 @@
+.series-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://culturageek.com.ar/wp-content/uploads/2023/04/how-to-watch-the-last-of-us_lead-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: var(--font);
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.series-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.438);
+    filter: brightness(0.5);
+}

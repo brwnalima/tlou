@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap');
 
 :root {
-    --bg-main: #212121;
-    --bg-sec: #1c1c1c;
+  --bg-main: #1c1c1c;
+  --bg-sec: #101010;
 
-    --txt-main: #FFFFFF;
-    --txt-sec: #AAAAAA;
+  --txt-main: #FFFFFF;
+  --txt-sec: #AAAAAA;
 
-    --font: 'Roboto', sans-serif;
+  --font: 'Roboto', sans-serif;
 }
-
 
 .app {
   background-color: var(--bg-sec);
   color: #FFFFFF;
   scroll-behavior: smooth;
   font-family: var(--font);
+  
 }

@@ -1,0 +1,21 @@
+:root {
+    --bg-main: #1c1c1c;
+    --bg-sec: #101010;
+
+    --txt-main: #FFFFFF;
+    --txt-sec: #AAAAAA;
+
+    --font: 'Roboto', sans-serif;
+}
+
+.iconScroll {
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--txt-sec);
+}
+
+.iconScroll:hover {
+    transition: .4s ease-in-out;
+    scale: 1.2;
+    color: var(--txt-main);
+}
