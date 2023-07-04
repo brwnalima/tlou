@@ -1,10 +1,13 @@
 import React from 'react'
+import './Trailer.css'
 
 function Video({ src }) {
     return (
-        <iframe width="420" height="315"
-            src={src} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
+        <div className="iframe-video">
+            <iframe
+                src={src} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
+            </iframe>
+        </div>
     )
 }
 

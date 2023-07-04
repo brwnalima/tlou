@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/navbar/Navbar'
-import About from './components/pages/About'
+import Game from './components/pages/Game'
 import Home from './components/pages/Home'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className='app'>
       <Navbar/>
       <Home/>
-      <About/>
+      <Game/>
     </div>
   )
 }

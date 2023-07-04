@@ -25,7 +25,7 @@
     align-items: center;
     background-color: transparent;
     padding: 0 0.625rem;
-    position: fixed;
+    position: absolute;
     height: 15%;
     width: 100%;
     color: var(--txt-main);
@@ -63,6 +63,7 @@
 .navbar-center a:hover {
   border-bottom: 2px solid var(--txt-sec);
   color: var(--txt-main);
+
 }
 
 .navbar-toggle {

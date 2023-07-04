@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap');
+
+:root {
+    --bg-main: #212121;
+    --bg-sec: #1c1c1c;
+
+    --txt-main: #FFFFFF;
+    --txt-sec: #AAAAAA;
+
+    --font: 'Roboto', sans-serif;
+}
+
+
+/* INICIO DO ABOUT */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-sec);
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    padding: 0 2rem;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+.sec {
+    flex-direction: row-reverse;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: right;
+    width: 80%;
+}
+
+.txt-absec {
+    text-align: left;
+}
+
+.wrapperItens h2 {
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    width: 60%;
+    margin: auto;
+}
+
+.wrapperItens p {
+    width: 60%;
+    font-size: .9rem;
+    color: var(--txt-sec);
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about-container {
+        padding: 2.5rem 0;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .sec {
+        flex-direction: column;
+    }
+
+    .text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .txt-absec {
+        text-align: left;
+    }
+
+    .wrapperItens h2 {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .wrapperItens p {
+        width: 100%;
+        font-size: .7rem;
+    }
+}
+
+/* FIM DO ABOUT */
