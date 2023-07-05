@@ -83,6 +83,7 @@
     .text, .txt-absec {
         text-align: center;
         width: 100%;
+        padding: 1.25rem;
     }
 
     .wrapperItens h2 {
