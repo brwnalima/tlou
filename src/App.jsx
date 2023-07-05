@@ -14,7 +14,7 @@ function App() {
       <Home/>
       <Game/>
       <Series/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
