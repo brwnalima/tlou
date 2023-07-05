@@ -56,6 +56,11 @@
     padding: 1.25rem 0 0 0;
 }
 
+.hide p {
+    display: none;
+}
+
+
 @media only screen and (max-width: 758px) {
     .text-area {
         padding: 9rem 1.875rem 0 1.875rem;
@@ -71,11 +76,14 @@
     .text-area p {
         text-align: center;
         font-size: 14px;
-        display: none;
-    
+       display: none;
     }
     
     .banner-btn {
-        margin: 400px 0px;
+       display: none;
+    }
+
+    .hide p {
+        display: block;
     }
 }

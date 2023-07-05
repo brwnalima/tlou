@@ -13,6 +13,10 @@ function Banner() {
           <div className="banner-btn">
             <Btn outline={true}>Saiba mais</Btn>
           </div>
+
+          <div className="hide">
+            <p>Veja abaixo tudo sobre um dos maiores jogos das últimas décadas.</p>
+          </div>
         </div>
       </Fade>
     </div>
