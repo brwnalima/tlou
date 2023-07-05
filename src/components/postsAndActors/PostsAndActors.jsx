@@ -1,4 +1,5 @@
 import './PostsAndActors.css'
+import { Fade } from "react-awesome-reveal";
 
 function PostsAndActors() {
 
@@ -33,28 +34,34 @@ function PostsAndActors() {
     ]
     return (
         <div className='container'>
-            <h3>Posters</h3>
-            <div className="posters-wrapper">
-                {posters.map((item, index) => (
-                    <div className="posters" key={index}>
-                        <img src={item.posterImg} />
-                    </div>
-                ))}
-            </div>
+            <Fade direction='right'>
+                <h3>Posters</h3>
+                <div className="posters-wrapper">
+
+                    {posters.map((item, index) => (
+                        <div className="posters" key={index}>
+                            <img src={item.posterImg} />
+                        </div>
+                    ))}
+
+                </div>
+            </Fade>
 
             <h3>Actors</h3>
             <div className="actors-wrapper">
-                {actors.map((item, index) => (
-                    <div className="actors" key={index}>
-                        <div className="act-minicard">
-                            <img src={item.icon} alt={item.nome} />
-                            <h4>{item.nome}</h4>
+                <Fade direction='right'>
+                    {actors.map((item, index) => (
+                        <div className="actors" key={index}>
+                            <div className="act-minicard">
+                                <img src={item.icon} alt={item.nome} />
+                                <h4>{item.nome}</h4>
+                            </div>
                         </div>
-                    </div>
-                ))}
-                <div className="viewAll"><button id='viewAll-btn'><a href="https://www.google.com/search?q=the+last+of+us+serie+elenco&bih=678&biw=1396&hl=pt-BR&ei=oG-kZI3uKdfK1sQPpLCnUA&oq=the+last+of+us+serie+&gs_lp=Egxnd3Mtd2l6LXNlcnAiFXRoZSBsYXN0IG9mIHVzIHNlcmllICoCCAAyBRAAGIAEMgUQABiABDIFEC4YgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESNUcULECWLECcAF4AZABAJgBiQGgAYkBqgEDMC4xuAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICChAAGIoFGLADGEPCAg4QABjkAhjWBBiwA9gBAcICEBAuGIoFGMgDGLADGEPYAQLCAhQQLhiABBiXBRjcBBjeBBjgBNgBA-IDBBgAIEGIBgGQBhK6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBQ&sclient=gws-wiz-serp" target="_blank">View All</a></button></div>
+                    ))}
+                    <div className="viewAll"><button id='viewAll-btn'><a href="https://www.google.com/search?q=the+last+of+us+serie+elenco&bih=678&biw=1396&hl=pt-BR&ei=oG-kZI3uKdfK1sQPpLCnUA&oq=the+last+of+us+serie+&gs_lp=Egxnd3Mtd2l6LXNlcnAiFXRoZSBsYXN0IG9mIHVzIHNlcmllICoCCAAyBRAAGIAEMgUQABiABDIFEC4YgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESNUcULECWLECcAF4AZABAJgBiQGgAYkBqgEDMC4xuAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICChAAGIoFGLADGEPCAg4QABjkAhjWBBiwA9gBAcICEBAuGIoFGMgDGLADGEPYAQLCAhQQLhiABBiXBRjcBBjeBBjgBNgBA-IDBBgAIEGIBgGQBhK6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBQ&sclient=gws-wiz-serp" target="_blank">View All</a></button></div>
+                </Fade>
             </div>
-        </div>
+        </div >
     )
 }
 

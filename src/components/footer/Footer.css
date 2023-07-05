@@ -1,0 +1,18 @@
+:root {
+    --bg-main: #1c1c1c;
+    --bg-sec: #101010;
+
+    --txt-main: #FFFFFF;
+    --txt-sec: #AAAAAA;
+
+    --font: 'Roboto', sans-serif;
+}
+
+.footer-wrapper {
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--txt-main);
+    color: var(--bg-main);
+    font-weight: bold;
+    font-size: 0.8125rem;
+}
