@@ -11,7 +11,7 @@ function Banner() {
           <h1>Uma Jornada Emocionante em um Mundo Pós-Apocalíptico</h1>
           <p>Com sua atmosfera sombria e personagens complexos, "The Last of Us" conquistou os corações dos jogadores ao oferecer uma experiência única e emocional no mundo dos videogames.</p>
           <div className="banner-btn">
-            <Btn outline={true}>Botão Inteiro</Btn>
+            <Btn outline={true}>Saiba mais</Btn>
           </div>
         </div>
       </Fade>
