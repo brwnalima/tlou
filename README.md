@@ -12,7 +12,7 @@
 
 ### Elementos ainda a serem implementados:
 
-* CSS alternativo </p> 
+* CSS alternativo ✅</p> 
 * README Detalhado ✅</p>
 * Animations ✅
 
