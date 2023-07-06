@@ -64,10 +64,17 @@
     margin: auto;
 }
 
+.scroll {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 2.5rem;
+}
+
 @media only screen and (max-width: 768px) {
 
-    .about-container {
-        padding: 2.5rem 0;
+    .video-area {
+        padding: 6rem 0 0 0;
     }
 
     .wrapper {
@@ -95,13 +102,15 @@
         width: 100%;
         font-size: .7rem;
     }
+    
+    .scroll {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        padding: 2.5rem;
+    }
 }
 
-.scroll {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    padding: 2.5rem;
-}
+
 
 /* FIM DO ABOUT */

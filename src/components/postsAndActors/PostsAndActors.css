@@ -87,3 +87,39 @@
 .act-minicard h4 {
     color: var(--txt-sec);
 }
+
+@media only screen and (max-width: 768px) {
+    .container h3 {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    .posters img {
+        width: 4.375rem;
+        height: 5.625rem;
+    }
+
+    .actors-wrapper, .posters-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .act-minicard {
+        padding: 3px;
+    }
+
+    .viewAll {
+        padding: 1px;
+        margin: 0 0 40px 0;
+    }
+
+    .act-minicard img, #viewAll-btn {
+        width: 2.875rem;
+        height: 3.0625rem;
+    }
+
+    .act-minicard h4 {
+     font-size: 0.8125rem;
+     width: 50%;
+     text-align: center;
+    }
+}
